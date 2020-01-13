@@ -22,11 +22,23 @@ If you have a high-quality tutorial or project to add, please open a PR.
 - Introduction to Deep Learning with Keras, from CERN: [video](http://cds.cern.ch/record/2157570?ln=en) - [slides](https://indico.cern.ch/event/506145/contributions/2132944/attachments/1258124/1858154/NNinKeras_MPaganini.pdf)
 - [Installing Keras for deep learning](http://www.pyimagesearch.com/2016/07/18/installing-keras-for-deep-learning/)
 - [Develop Your First Neural Network in Python With Keras Step-By-Step](http://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
+- [Practical Neural Networks with Keras: Classifying Yelp Reviews](http://www.developintelligence.com/blog/2017/06/practical-neural-networks-keras-classifying-yelp-reviews/) (Shows basic classification and how to set up a GPU instance on AWS)
 - [Understanding Stateful LSTM Recurrent Neural Networks in Python with Keras](http://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/)
 - [Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras](http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)
 - [Keras video tutorials from Dan Van Boxel](https://www.youtube.com/playlist?list=PLFxrZqbLojdKuK7Lm6uamegEFGW2wki6P)
 - [Keras Deep Learning Tutorial for Kaggle 2nd Annual Data Science Bowl](https://github.com/jocicmarko/kaggle-dsb2-keras/)
 - [Collection of tutorials setting up DNNs with Keras](http://ml4a.github.io/guides/)
+- [Fast.AI - Practical Deep Learning For Coders, Part 1](http://course.fast.ai/) (great information on deep learning in general, heavily uses Keras for the labs)
+- [Keras Tutorial: Content Based Image Retrieval Using a Convolutional Denoising Autoencoder](https://blog.sicara.com/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511)
+- [A Bit of Deep Learning and Keras](https://www.youtube.com/watch?v=UOEhojCzWrY&list=PLgJhDSE2ZLxaPX0jteHZG4skdj8ZrST9d): a multipart video introduction to deep learning and keras
+- [Five simple examples of the Keras Functional API](http://www.puzzlr.org/the-keras-functional-api-five-simple-examples/)
+- [Keras video tutorials playlist from Deeplizard](https://www.youtube.com/watch?v=RznKVRTFkBY&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL)
+
+## Books based on Keras
+
+- [Deep Learning with Python](https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438/)
+- [Deep Learning with Keras](https://www.amazon.com/Deep-Learning-Keras-Implementing-learning/dp/1787128423/)
+- [Deep Learning and the Game of Go (MEAP)](https://www.manning.com/books/deep-learning-and-the-game-of-go)
 
 ## Code examples
 
@@ -47,6 +59,7 @@ If you have a high-quality tutorial or project to add, please open a PR.
 - [Structurally constrained recurrent nets text generation](https://github.com/nzw0301/keras-examples/blob/master/SCRNLM.ipynb)
 - [Character-level convolutional neural nets for text classification](https://github.com/johnb30/py_crepe)
 - [LSTM to predict gender of a name](https://github.com/divamgupta/lstm-gender-predictor)
+- [Language/dialect identification with multiple character-level CNNs](https://github.com/boknilev/dsl-char-cnn)
 
 ### Working with images
 
@@ -71,6 +84,8 @@ If you have a high-quality tutorial or project to add, please open a PR.
 - [DeepMask object segmentation](https://github.com/abbypa/NNProject_DeepMask)
 - Densely Connected Convolutional Networks: [1](https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) - [2](https://github.com/titu1994/DenseNet)
 - [Snapshot Ensembles: Train 1, Get M for Free](https://github.com/titu1994/Snapshot-Ensembles)
+- [Single Shot MultiBox Detector](https://github.com/rykov8/ssd_keras)
+- [Popular Image Segmentation Models : FCN, Segnet, U-Net etc. ](https://github.com/divamgupta/image-segmentation-keras)
 
 ### Creative visual applications
 
@@ -116,7 +131,12 @@ If you have a high-quality tutorial or project to add, please open a PR.
 ## Projects built with Keras
 
 - [RocAlphaGo](https://github.com/Rochester-NRT/RocAlphaGo): An independent, student-led replication of DeepMind's 2016 Nature publication, "Mastering the game of Go with deep neural networks and tree search"
+- [BetaGo](https://github.com/maxpumperla/betago): Deep Learning Go bots using Keras
 - [DeepJazz](https://github.com/jisungk/deepjazz): Deep learning driven jazz generation using Keras
 - [dataset-sts](https://github.com/brmson/dataset-sts): Semantic Text Similarity Dataset Hub
 - [snli-entailment](https://github.com/shyamupa/snli-entailment): Independent implementation of attention model for textual entailment from the paper ["Reasoning about Entailment with Neural Attention"](http://arxiv.org/abs/1509.06664).
 - [Headline generator](https://github.com/udibr/headlines): independent implementation of [Generating News Headlines with Recurrent Neural Networks](http://arxiv.org/abs/1512.01712)
+- [LipNet](https://github.com/rizkiarm/LipNet): independent implementation of [LipNet: End-to-End Sentence-level Lipreading](https://arxiv.org/abs/1611.01599).
+- [caption_generator](https://github.com/anuragmishracse/caption_generator): An implementation of image caption generation in natural language inspired from [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/pdf/1411.4555.pdf).
+- [NMT-Keras](https://github.com/lvapeab/nmt-keras): Neural Machine Translation using Keras.
+- [Conx](https://conx.readthedocs.io/) - easy-to-use layer on top of Keras, with visualizations (eg, no knowledge of numpy needed)
